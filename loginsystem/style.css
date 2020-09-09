@@ -1,0 +1,81 @@
+a
+{
+    
+}
+
+body
+{
+    text-align: center;
+}
+
+.all
+{
+    text-align: center;
+}
+
+.posts
+{
+    width: 50%;
+    border:1px solid #ffffff;
+    background: #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.posts h1
+{
+    text-align: center;
+    color: #5e5e5e;
+}
+
+.posts h3
+{
+    text-align: center;
+    color: #5e5e5e;
+}
+
+.card
+{
+    width: 400px;
+    margin: 10px;
+    background-color:white ;
+    border: 1px solid ;
+    box-shadow: 0 2p 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+.placeholder-for-img
+{
+    width: 400px;
+    height: 250px;
+    background-color:red ;
+
+}
+
+.expandMoreContent
+{
+    height: 250px;
+    overflow: hidden;
+    transition: height 0.5s ease-in-out;
+    position: relative;
+}
+
+.expandMoreContent.expand-active
+{
+    height: auto;
+    transition: height 0.5s ease-in-out;
+}
+
+.expandMoreHolder
+{
+    padding: 15px;
+    text-align: center;
+}
+
+.btn-expand-more
+{
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    display: inline-block;
+}
